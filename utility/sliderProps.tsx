@@ -1,7 +1,7 @@
 function Arrow({ className, extraClass, onClick, icon }) {
   return (
     <button className={`${className} ${extraClass}`} onClick={onClick}>
-      <i class={icon}></i>
+      <i className={icon}></i>
     </button>
   );
 }
